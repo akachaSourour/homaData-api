@@ -4,7 +4,8 @@
   "description": "Une api pour l'application \"estimateur immobilier basique\" dans le cadre d'un test technique avec Homadata",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Sourour AKACHA",
   "license": "ISC",
