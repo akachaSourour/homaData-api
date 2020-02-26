@@ -18,6 +18,6 @@ app.get('/', function (req, res) {
 app.post('/api/house/estimate', houseController.estimate);
 
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('l\'api de l\'estimateur immobilier est en ecoute sur le port 3000!')
 })
