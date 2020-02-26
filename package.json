@@ -1,0 +1,16 @@
+{
+  "name": "test-homadata",
+  "version": "1.0.0",
+  "description": "Une api pour l'application \"estimateur immobilier basique\" dans le cadre d'un test technique avec Homadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sourour AKACHA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
